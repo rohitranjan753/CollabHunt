@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:id="@+id/homeImage"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/homeName"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/homeImage"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Name"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/homeInterest"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/homeImage"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:text="Area Of Interest"
+            android:layout_below="@id/homeName"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/homeState"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/homeImage"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:text="State"
+            android:layout_below="@id/homeInterest"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

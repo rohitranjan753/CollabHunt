@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <!-- <gradient android:angle="90" android:startColor="#9890e3" android:endColor="#b1f4cf" android:type="linear"/> -->
+            <!--<gradient android:angle="90" android:startColor="#131415" android:endColor="#353739" android:type="linear"/> -->
+            <!-- <gradient android:angle="90" android:startColor="#36373d" android:endColor="#36373d" android:type="linear"/> -->
+            <gradient android:angle="90" android:startColor="#222431" android:endColor="#222431" android:type="linear"/>
+        </shape>
+    </item>
+
+</selector>
