@@ -2,8 +2,8 @@
 
 ##CollabHunt is a platform which is used to connect people from same domain of interest to interact and collaborate. CollabHunt provide chat feature for interaction with other user and share their ideas. Also group chat feature enables multiple users to interact and collaborate with each other at the same time. Through posts feature user can share their ideas, talent and day to day activity.##
 
-## Tech Stack Used:
-  - JAVA
+## Tech Stack Used:##
+  ##- JAVA##
   - XML
   - FIREBASE ##
 
